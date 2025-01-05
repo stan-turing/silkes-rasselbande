@@ -1,0 +1,195 @@
+/* Basis-Styling */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #253668;
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #253668;
+    padding: 10px 20px;
+    margin-top: 1.6rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #253668;
+    font-weight: 600;
+    font-size: 3rem;
+    background-color: #87B1F4;
+    padding: 10px 25px 5px 25px;
+    border-radius: 50px;
+}
+
+nav a:hover {
+    background-color: #FCC35E;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.hero h1 {
+    display: inline-block;
+    font-size: 7rem;
+    background-color: #50BC85;
+    padding: 1rem 5rem 0.5rem 5rem;
+    position: relative;
+    border-radius: 100px;
+}
+
+.hero h1 span {
+    color: #FCC35E;
+}
+
+.hero p {
+    margin-top: -4.5rem;
+    font-size: 3rem;
+}
+
+.hero p span {
+    color: #FCC35E;
+}
+  
+
+/* About Section */
+.about {
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.about h2 {
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.about p {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.about a {
+    font-weight: 600;
+    color: #87B1F4;
+}
+
+.about a:hover {
+    color: #FCC35E;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 1;
+    min-width: 400px;
+}
+
+.image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 25px;
+    border: 6px solid #FCC35E;
+}
+  
+
+/* Availability Section */
+.availability {
+    text-align: center;
+    padding: 20px;
+    margin-top: -2rem;
+    margin-bottom: 8rem;
+}
+
+.availability h2 a {
+    font-size: 5rem;
+    color: #87B1F4;
+}
+
+.availability h2 a:hover {
+    color: #FCC35E;
+}
+
+#availability-btn {
+    font-size: 3rem;
+    margin-top: -1rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #50BC85;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    font-weight: 700;
+}
+
+#availability-btn.out-of-places {
+    background-color: #f44336;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #001d3d;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+footer a {
+    color: #87B1F4;
+}
+
+footer a:hover {
+    color: #FCC35E;
+}
+  
