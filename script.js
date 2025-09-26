@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const availabilityBtn = document.getElementById('availability-btn');
-    let freePlaces = 3; // Ändere die Zahl hier für die Verfügbarkeit
+    let freePlaces = 0; // Ändere die Zahl hier für die Verfügbarkeit
   
     if (freePlaces === 0) {
       availabilityBtn.textContent = 'Leider keine Plätze frei';
@@ -23,4 +23,4 @@ document.addEventListener('DOMContentLoaded', () => {
             navUl.classList.toggle('active');
         });
     }
-  });
+});

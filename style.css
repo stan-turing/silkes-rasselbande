@@ -139,6 +139,18 @@ nav a:hover {
     border: 6px solid #FCC35E;
 }
   
+.impressum-container {
+    padding: 2rem; 
+    max-width: 400px; 
+    margin: 2rem auto; 
+    font-size: 2rem; 
+    color:#fff; 
+    background:#253668; 
+    text-align: left;
+}
+.impressum-container p {
+    font-size: 3rem;
+}
 
 /* Availability Section */
 .availability {
@@ -228,14 +240,14 @@ footer a:hover {
 /* Tablet Devices */
 @media only screen and (max-width: 768px) {
     html {
-        font-size: 50%;
+        font-size: 70%;
     }
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     nav li {
-        margin: 10px 0;
+        margin: 13px 5px;
     }
     nav a {
         font-size: 2.5rem;
@@ -263,33 +275,47 @@ footer a:hover {
 
 /* Mobile Devices */
 @media only screen and (max-width: 480px) {
-    html {
-        font-size: 40%;
-    }
     nav ul {
         flex-direction: column;
         align-items: center;
+    }
+    nav-li {
+        margin: 11px;
     }
     nav a {
         font-size: 2rem;
         padding: 8px 15px;
     }
     .hero h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         padding: 0.8rem 2rem;
     }
     .hero p {
-        font-size: 2rem;
-        margin-top: -2rem;
+        font-size: 1.8rem;
+        margin-top: -1rem;
     }
     .about h2 {
-        font-size: 3rem;
+        margin-top: -4rem;
+        font-size: 4rem;
+        line-height: 0.8;
     }
     .about p {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        max-width: 370px;
     }
     #availability-btn {
         font-size: 2rem;
         padding: 1rem 2rem;
+    }
+
+    /* Kontakt Page */
+    .contact-container h1 {
+        font-size: 3rem;
+    }
+    .contact-container form {
+        font-size: 1.5rem;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 1.5rem;
     }
 }
