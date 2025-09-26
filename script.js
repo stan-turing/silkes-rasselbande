@@ -14,5 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'https://jugendamt-stade.de'; // Link zum Jugendamt
       };
     }
-  });
   
+    // Hamburger menu toggle functionality
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const navUl = document.querySelector('nav ul');
+    if (hamburgerBtn && navUl) {
+        hamburgerBtn.addEventListener('click', () => {
+            navUl.classList.toggle('active');
+        });
+    }
+  });

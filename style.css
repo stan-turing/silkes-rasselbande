@@ -192,4 +192,104 @@ footer a {
 footer a:hover {
     color: #FCC35E;
 }
-  
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+    nav ul.active {
+        display: flex;
+    }
+}
+
+/* Responsive Design Media Queries */
+
+/* Tablet Devices */
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li {
+        margin: 10px 0;
+    }
+    nav a {
+        font-size: 2.5rem;
+        padding: 8px 20px;
+    }
+    .hero h1 {
+        font-size: 5rem;
+        padding: 1rem 3rem;
+    }
+    .hero p {
+        font-size: 2.5rem;
+        margin-top: -3rem;
+    }
+    .about h2 {
+        font-size: 4rem;
+    }
+    .about p {
+        font-size: 2.5rem;
+    }
+    #availability-btn {
+        font-size: 2.5rem;
+        padding: 1.5rem 3rem;
+    }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        font-size: 2rem;
+        padding: 8px 15px;
+    }
+    .hero h1 {
+        font-size: 4rem;
+        padding: 0.8rem 2rem;
+    }
+    .hero p {
+        font-size: 2rem;
+        margin-top: -2rem;
+    }
+    .about h2 {
+        font-size: 3rem;
+    }
+    .about p {
+        font-size: 2rem;
+    }
+    #availability-btn {
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+}
